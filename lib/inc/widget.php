@@ -49,13 +49,9 @@ class MSD_Widget_Twitter_Feed extends WP_Widget {
           "enableLinks": true,
           "showUser": false,
           "showTime": true,
-          "dateFunction": dateFormatter,
           "showRetweet": false
         };
         
-        function dateFormatter(date) {
-          return date.toTimeString();
-        }
         
         twitterFetcher.fetch(config4);
         </script>
