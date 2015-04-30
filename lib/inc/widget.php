@@ -13,6 +13,7 @@ class MSD_Widget_Twitter_Feed extends WP_Widget {
         add_action('wp_print_footer_scripts',array(&$this,'footer_scripts'));
         $title = apply_filters( 'widget_title', empty($instance['title']) ? '' : $instance['title'], $instance, $this->id_base);
         echo $before_widget;
+        if ( !empty( $title ) ) { echo $before_title . $title . $after_title; }
         print '<div id="twitter-feed"></div>';
         echo $after_widget;
     }
