@@ -3,7 +3,7 @@
 Plugin Name: MSD Twitter Feed
 Description: Simple Twitter feed using Jason Mayes Twitter post fetcher JS.
 Author: MSDLAB
-Version: 0.1.2
+Version: 0.1.3
 Author URI: http://msdlab.com
 */
 
