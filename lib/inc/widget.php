@@ -47,7 +47,7 @@ class MSD_Widget_Twitter_Feed extends WP_Widget {
           "domId": "twitter-feed",
           "maxTweets": 3,
           "enableLinks": true,
-          "showUser": false,
+          "showUser": true,
           "showTime": true,
           "showRetweet": false
         };
